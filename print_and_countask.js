@@ -10,4 +10,15 @@ for(var i = 512; i<4097; i++){
         console.log(count);
     };
 
-        
+/*OR (using while loop */       
+var count = 0;
+var i = 512;
+while(i < 530){
+    
+    if(i % 2 === 0){
+        console.log (i);
+        count += 1;
+    }
+    i++;
+}
+    console.log(count);
